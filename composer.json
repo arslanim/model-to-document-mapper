@@ -13,6 +13,7 @@
         "email": "ara.imamutdinov@gmail.com"
     }],
     "require": {
+        "phpoffice/phpword": ""0.13.0"
     },
     "autoload": {
         "psr-4": {
