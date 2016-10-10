@@ -1,0 +1,22 @@
+{
+    "name": "arslanim/model-to-document-mapper",
+    "type": "library",
+    "description": "Library for mapping model of buisness logic to Word template, using PHPWord library",
+    "keywords": ["PHPOffice", "PHPWord", "template", "model"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/arslanim/model-to-document-mapper/issues",
+        "source": "https://github.com/arslanim/model-to-document-mapper"
+    },
+    "authors": [{
+        "name": "Arslan Imamutdinov",
+        "email": "ara.imamutdinov@gmail.com"
+    }],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Arslanim\\TemplateMapper\\": "src/"
+        }
+    }
+}
