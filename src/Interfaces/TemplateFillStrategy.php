@@ -2,6 +2,8 @@
 
 namespace Arslanim\TemplateMapper\Interfaces;
 
+use PhpOffice\PhpWord\TemplateProcessor;
+
 interface TemplateFillStrategy {
-    public function fillTemplatePart($templateProcessor);
+    public function mapObject(TemplateProcessor $template);
 }
